@@ -13,7 +13,7 @@ def check_answer(answer, correct_answer):
     if answer == correct_answer:
         return 1
     else:
-        print('Неверно. Правильная дата рождения:', dict_dates[correct_answer])
+        print('Неверно. Правильная дата рождения:', dict_dates[correct_answer], '\n')
         return 0
 
 
